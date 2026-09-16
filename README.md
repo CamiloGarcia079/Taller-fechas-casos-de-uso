@@ -23,25 +23,6 @@ taller-fechas-casos-uso/
 │   └── init/
 │       └── 01_schema_and_data.sql     # Se ejecuta automáticamente al levantar el contenedor
 └── img/                                # Aquí van tus capturas de pantalla (1.png ... 35.png, etc.)
-```
-
----
-
-## Dónde van tus capturas
-
-Guarda cada captura en la carpeta `img/` con este naming (igual al de los comentarios `-- Caso de uso N` dentro del SQL), para que sea fácil identificarlas:
-
-- `1.png` a `32.png` → casos de consulta 1 al 32
-- `33v1.png` y `33v2.png` → caso 33 (SELECT previo y UPDATE ejecutado)
-- `34.png` y `35.png` → casos 34 y 35 (UPDATE)
-- `retoIntegrador.png` → reto integrador
-- `consultaAvanzada.png` → caso de uso avanzado (reporte gerencial)
-
-Luego, dentro de `docs/TALLER_POSTGRESQL_COMPLETO.md`, en la sección "Evidencia" al final, enlaza cada imagen así (en Typora puedes simplemente arrastrarlas):
-
-```markdown
-![Caso 1](../img/1.png)
-```
 
 ---
 
